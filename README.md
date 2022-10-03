@@ -1,18 +1,21 @@
 # CYB333 Security Automation Final Project
-<p>This project is based on a video course authored by Thomas McNeela called Python for Automating Security [Video] (McNella, 2020). The content includes seven sections as follows:</p>
+<p>This project was inspired by Thomas McNeela's Python for Automating Security [Video] video course (McNella, 2020). The content consists of the following seven sections:</p>
 <ul>
-  <li>Reading, Modifying and Testing an Exploit Script</li>
-  <li>Analyzing a Packet Capture File</li>
-  <li>Gathing Open-Source Intelligence</li>
-  <li>Analyzing a Log File</li>
-  <li>Write a Paython Replacement for Netcat</li>
-  <li>Collecting Network Packets Off the Wire</li>
-  <li>Build a complete Penetration Testing Tool based on the first six sections above</li></ul>
-<p><strong>Section 1</strong> includes an overview of a virtual environment that is required to construct all the Python functions and methods for each section. It also includes how to find, understand, modify, and tests an exploit script authored in Python. The latter rewrites the entire exploit in Python for more portability and demonstrates the power and simplicity of using Python for automating security testing.</p>
-<p><strong>Section 2</strong> follows with understanding packet capture files followed by writing a Python code analyzing a packet capture file automatically and looking for unusual network activity.</p>
-<p>Next, <strong>Section 3</strong> delves into open source intelligence and then uses Python by automating the gathering of certain types of OS sent. Consequently culminating in a handy penetration test in <strong>Section 4</strong>, similar to the process outlined in <strong>Section 2</strong>.</p> 
-In Section 4, analyzes a server log file looking for unusual activity followed by writing Python code automating the analysis process. 
-Section 5 starts with the theory of netcat, which is a helpful tool in penetration testing. Still, system administrators often wisely block it from running on machines due to its potential for abuse. However, this section demonstrates how to write a Python replacement for Netcat, which can subsequently be used on any system that supports Python.
-Section 6 shows how to capture network packets off the wire used in many penetration tests. It is a very useful process to perform live packet captures to analyze what’s going on with the network, thereby creating the capability to see how to capture plaintext credentials off the network traffic and finally write an offensive tool for cache poisoning. 
-Section 7 finishes by bringing together all that was learned in the other sections and practical approaches by writing comprehensive penetration testing. The code combines multiple techniques into one comprehensive tool. 
-
+<li>Exploit Script Reading, Modification, and Testing</li>
+<li>Using a Packet Capture File to Analyze</li>
+<li>Open-Source Intelligence Collection</li>
+<li>Examining a Log File</li>
+<li>Create a Netcat Python replacement</li>
+<li>Obtaining Network Packets from the Wire</li>
+<li>Create a complete penetration testing tool using the first six sections listed above</li></ul>
+<p><strong>Section 1</strong> provides an overview of the virtual environment needed to build all of the Python functions and methods for each section. It also covers how to locate, comprehend, modify, and test an exploit script written in Python. The latter rewrites the entire exploit in Python for greater portability, demonstrating the power and simplicity of using Python for security testing automation.</p>
+<p><strong>Section 2</strong> begins with an explanation of packet capture files, followed by the creation of Python code to automatically analyze a packet capture file and look for unusual network activity.</p>
+<p><strong>Section 3</strong> then delves into open source intelligence before employing Python to automate the collection of specific types of OS sent. As a result, similar to the process outlined in <strong>Section 2</strong>, <strong>Section 4</strong> concludes with a useful penetration test.</p>
+<p><strong>Section 4</strong> examines a server log file for unusual activity before writing Python code to automate the analysis process.</p>
+<p><strong>Section 5</strong> begins with a discussion of netcat theory, which is a useful tool in penetration testing. Nonetheless, due to the potential for abuse, system administrators frequently prevent it from running on machines. This section, on the other hand, shows how to write a Python replacement for Netcat that can then be used on any system that supports Python.</p>
+<p><strong>Section 6</strong> demonstrates how to capture network packets off the wire, which is commonly used in penetration tests. It is a very useful process to perform live packet captures to analyze what is going on with the network, allowing you to see how to capture plaintext credentials from network traffic and eventually write an offensive tool for cache poisoning.</p>
+<p><strong>Section 7</strong> concludes by bringing everything learned in the previous sections and practical approaches together by writing comprehensive penetration testing. The code combines several techniques into a single useful tool.</p>
+<h2>Project Plan</h2>
+<p><strong>Project Objectives:</strong> To be motivated to write programs for whatever is required to automate security. Much has been written, but much has yet to be written. Learning to write code is one of the most effective ways to stimulate thought and apply it to everyday scenarios that a threat actor might use to infiltrate a company's systems. Getting ahead of the threat actor can be accomplished by embracing good coding skills.</p>
+<p><strong>Problem:</strong> Threat actors are constantly attempting to gain access and entry in order to steal personal information and make money. Using Python to automate security is a low-cost way to stay ahead of the threat actor. Building comprehensive penetration tools that address all six demonstrated skills is an excellent starting point for protecting against threat actors.</p>
+<p><strong>Expected Outcomes and Deliverables:</strong> Using the tools developed in each of the seven principles creates the necessary shield to detect and block threat actors in business systems and networks. The penetration testing tools can help developers understand how to develop their application code to thwart the attempts of threat actors by creating a privacy-by-design environment.Expected Outcomes and Deliverables: Using the tools developed in each of the seven principles creates the necessary shield to detect and block threat actors in business systems and networks. The penetration testing tools can help developers understand how to develop their application code to thwart the attempts of threat actors by creating a privacy-by-design environment.</p>
